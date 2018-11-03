@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+
+  hello-golang:
+    image: golang-image:0.1
+    container_name: golang-container
+    build: .
+    command: go run hello.go
+    volumes:
+      - ./:/go/src/app
+    working_dir: /go/src/app
