@@ -2,8 +2,10 @@
 golang with docker (hello world)
 
 
-## Docker: https://www.tutorialspoint.com/docker/docker_overview.htm
-## Golang: 
+## Docker: 
+- https://www.tutorialspoint.com/docker/docker_overview.htm
+
+## Golang:
 - https://golang.org/
 - https://github.com/docker-library/docs/tree/master/golang/
 
@@ -50,7 +52,7 @@ docker rmi golang-image:0.1
 docker run -it --rm --name golang-container-tmp golang-image:0.1
 ```
 
-## Using docker-compose*
+## Using docker-compose
 
 *Noted*: 
 You should put Dockerfile and docker-compose.yml in the same directory, so that the config build just like 
